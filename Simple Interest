@@ -1,0 +1,20 @@
+package com.company;
+
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner in =new Scanner(System.in);
+        System.out.print("Enter the Principal ");
+        int Principal=in.nextInt();
+        System.out.print("Enter the Rate ");
+        double Rate=in.nextFloat();
+        System.out.print("Enter the Time ");
+        int Time=in.nextInt();
+        double simpleInterest=(Principal*Rate*Time)/100;
+        System.out.println("Simple Interests is "+ simpleInterest);
+    }
+}
+
